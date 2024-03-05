@@ -1,0 +1,27 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://www.w3.org/ns/data-integrity/v1",
+    "https://schema.org/"
+  ],
+  "id": "http://example.org/credentials/city/1",
+  "type": "VerifiableCredential",
+  "issuer": "did:example:issuer1",
+  "issuanceDate": "2023-01-01T00:00:00Z",
+  "expirationDate": "2026-01-01T00:00:00Z",
+  "credentialSubject": {
+    "id": "did:example:cityA",
+    "type": "Place",
+    "name": "City A",
+    "maximumAttendeeCapacity": 10000
+  },
+  "proof": {
+    "@context": "https://www.w3.org/ns/data-integrity/v1",
+    "type": "DataIntegrityProof",
+    "created": "2024-03-05T08:52:48.062Z",
+    "cryptosuite": "bbs-termwise-signature-2023",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "ukoubEU5sEkY9bcLZI4pYyVLPvfLsLp_fIY0ZzDPPZ27frt6MNT-wJSda0AIzwf3O8ycSmKZiWrh1XeSu_8WyCaYBgiEL-E8LU6sU70Ki6QSPh7hN3dQnhsxCoZE-fv5vPvvRqBSYm-ZmvnI-k6vBGw",
+    "verificationMethod": "did:example:issuer1#bls12_381-g2-pub001"
+  }
+}

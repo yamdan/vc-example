@@ -1,0 +1,31 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://www.w3.org/ns/data-integrity/v1",
+    "https://schema.org/"
+  ],
+  "id": "http://example.org/credentials/person/0",
+  "type": "VerifiableCredential",
+  "issuer": "did:example:issuer0",
+  "issuanceDate": "2023-01-01T00:00:00Z",
+  "expirationDate": "2026-01-01T00:00:00Z",
+  "credentialSubject": {
+    "id": "did:example:john",
+    "type": "Person",
+    "givenName": "John",
+    "familyName": "Smith",
+    "birthDate": "1970-01-01",
+    "homeLocation": {
+      "id": "did:example:cityA"
+    }
+  },
+  "proof": {
+    "@context": "https://www.w3.org/ns/data-integrity/v1",
+    "type": "DataIntegrityProof",
+    "created": "2024-03-05T08:51:19.323Z",
+    "cryptosuite": "bbs-termwise-bound-signature-2023",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "ugR3Y-G3laL7A6jAQZCL3P7nJ5Rhn2SFnsB6XBO8g1lM9xBzmxBFRvsfPlpVh1yL4hu8X0xBgrKYK6b9sI4zXCOvWdN_N1cLoowd7txND7kw9q7nUF1BlmiKhUHoOD3HavqMagNK1Iwdhoy_u6XbYXQ",
+    "verificationMethod": "did:example:issuer0#bls12_381-g2-pub001"
+  }
+}
