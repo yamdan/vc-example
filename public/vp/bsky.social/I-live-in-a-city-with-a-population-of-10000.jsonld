@@ -21,6 +21,25 @@
       "type": "VerifiableCredential",
       "proof": {
         "type": "DataIntegrityProof",
+        "created": "2024-03-26T05:55:38.493Z",
+        "cryptosuite": "bbs-termwise-bound-signature-2023",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:example:issuer0#bls12_381-g2-pub001"
+      },
+      "credentialSubject": {
+        "type": "Person",
+        "homeLocation": {
+          "id": "_:b7"
+        }
+      },
+      "expirationDate": "2026-01-01T00:00:00Z",
+      "issuanceDate": "2023-01-01T00:00:00Z",
+      "issuer": "did:example:issuer0"
+    },
+    {
+      "type": "VerifiableCredential",
+      "proof": {
+        "type": "DataIntegrityProof",
         "created": "2024-03-05T08:52:48.062Z",
         "cryptosuite": "bbs-termwise-signature-2023",
         "proofPurpose": "assertionMethod",
@@ -37,25 +56,6 @@
       "expirationDate": "2026-01-01T00:00:00Z",
       "issuanceDate": "2023-01-01T00:00:00Z",
       "issuer": "did:example:issuer1"
-    },
-    {
-      "type": "VerifiableCredential",
-      "proof": {
-        "type": "DataIntegrityProof",
-        "created": "2024-03-26T05:55:38.493Z",
-        "cryptosuite": "bbs-termwise-bound-signature-2023",
-        "proofPurpose": "assertionMethod",
-        "verificationMethod": "did:example:issuer0#bls12_381-g2-pub001"
-      },
-      "credentialSubject": {
-        "type": "Person",
-        "homeLocation": {
-          "id": "_:b7"
-        }
-      },
-      "expirationDate": "2026-01-01T00:00:00Z",
-      "issuanceDate": "2023-01-01T00:00:00Z",
-      "issuer": "did:example:issuer0"
     }
   ]
 }
