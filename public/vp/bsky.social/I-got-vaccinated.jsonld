@@ -1,0 +1,71 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://www.w3.org/ns/data-integrity/v1",
+    "https://schema.org/",
+    "https://zkp-ld.org/context.jsonld",
+    {
+      "vaccinationDate": {
+        "@id": "http://example.org/vocab/vaccinationDate",
+        "@type": "xsd:dateTime"
+      },
+      "vaccine": {
+        "@id": "http://example.org/vocab/vaccine",
+        "@type": "@id"
+      },
+      "@vocab": "http://example.org/vocab/"
+    }
+  ],
+  "type": "VerifiablePresentation",
+  "proof": {
+    "type": "DataIntegrityProof",
+    "created": "2024-03-26T05:51:46.959Z",
+    "challenge": "I got vaccinated on October 1st, 2023 with an authorized vaccine.",
+    "cryptosuite": "bbs-termwise-proof-2023",
+    "domain": "https://bsky.social",
+    "proofPurpose": "authentication",
+    "proofValue": "uomFhWQkvAwAAAAAAAAAAqvZShmfZHclEBO_O9v1r55yg9qZZfxqFrvc8x3grFmuva5Ow0qRMlnY8eoYe-NKcjf-tnqNz8C7oQZmMAWMUyKzOri1pEbp4egYpstLWtL2eeHBdiqy4b6t9NJvehaQrioEvwIQmcnLWxCFh_nD2LsNOIzHbFn0zlLp__RzEiNonMzkQ1i0Fgmqz-lYnIv6lsv8l0N2_xXnMQsu9H0IOaRJiDK6lEZ6epE2aISIuNBCOnb-jd6mokNncI9wh74v-AgAAAAAAAADbGbLebzGXPqBek_qyVLzxg0vHqP3I2th0CiEb-QNDSaOSsD75NNa0Qa9SY9j6v78mWptRJNWtYFiRLTQ33PEoiQU1WCWgcZyAbEkuNyhdXgduVPh3fD3xt7HyzBFpxFVpkG_kyRiBXqNABtLqpLS4GwAAAAAAAACaOldgnFYg0SnDAkwXfBd-n1nQkfkMMgfUBcBYfZlaJxQHh9Qlrv_0VToI5nrbj4n-TUix6TMlVtn94dpYUM1lJ_RbGRCwya-mrzn4rKKmuub-rMBdkyu9dXBXtKRAoFZC8i-3DnwoYTkDSuORLOoO0QHQzLYTNSvbTQ0pVM_mbkwsa4OKsspkqNnzuLJUV6m80FY3JLVs7yxnKjHYpqZnzXWCE8RefIvlHpx_-ifYjLrwMv5uFWRMwdc664U77k76fkmuivhT2oW6or43Cji8O1DByJ4KIIlUsH8KQsS6WdeJjshgDOJXTG_ip1Gv0b4ybNBVVR2wcxuCi2j-G4dmQvIvtw58KGE5A0rjkSzqDtEB0My2EzUr200NKVTP5m53BSge3SCU-BegFfP_JXPgQ98TtnwncCwJyjxRCNkxTncFKB7dIJT4F6AV8_8lc-BD3xO2fCdwLAnKPFEI2TFOQvIvtw58KGE5A0rjkSzqDtEB0My2EzUr200NKVTP5m53BSge3SCU-BegFfP_JXPgQ98TtnwncCwJyjxRCNkxTncFKB7dIJT4F6AV8_8lc-BD3xO2fCdwLAnKPFEI2TFOdwUoHt0glPgXoBXz_yVz4EPfE7Z8J3AsCco8UQjZMU6_G86tbWjvQNapYou03QlCFU-f8gee5HMHspMTC5iEH93skkFWwt90TR2ekxZLptVZZjJkjxgNYAcVl16iau4SISF0ziFTtjrCMfssnRHheoMW81l-Z2zcsJPGn4kG2z1MLGuDirLKZKjZ87iyVFepvNBWNyS1bO8sZyox2KamZ0wsa4OKsspkqNnzuLJUV6m80FY3JLVs7yxnKjHYpqZnrb1idaaEmyr_qQD7IYGMMFJIyKDnntTp5DESXEMtAzdMLGuDirLKZKjZ87iyVFepvNBWNyS1bO8sZyox2KamZ_3r7SoLrigTa95gDg0ZqXlMhnD4W3Li1iCwRKqiY4cn_evtKguuKBNr3mAODRmpeUyGcPhbcuLWILBEqqJjhyf96-0qC64oE2veYA4NGal5TIZw-Fty4tYgsESqomOHJ_3r7SoLrigTa95gDg0ZqXlMhnD4W3Li1iCwRKqiY4cn_evtKguuKBNr3mAODRmpeUyGcPhbcuLWILBEqqJjhycAhWFpr5DUoqR_TpOZG-EmKugdC53ZrSURU0Im9KfJY39Udn3rPcDJY2hVmgva9BttgzbnLBf0AqydijqUrFYMjj7L4O18ozkxW757pF8ozEeAQkH0LyN349RMBLxfbJ4ih4hSra-PArN4WI8rSPUD5Ftp8gbJKfsLwgzjEsiKn0q9y3-zpHpMQO-FCDzYXX34r9z4qCLjhTkJTr3klejMz-4cDc15qs4LDuL4Osh8SSRYzYK3msbFFzYgRug8lVDjAgAAAAAAAAClzFKaU79qck4k4s2GVDsq5a6OsLQmKHepMojRagrfTdjIlzOlYKdci88pNmPgos5IxZBUWWa4oS9EXyBk7sAPifHuYPnNG5av5kC59EQ7kJoEEBewxADxRXVQWhoiEoPfIWLBDiz0BvIcc4r3NLllFQAAAAAAAADwRjlUvXVnUm77uPRspmrCvmkOuFP-i317XYp8iAGVWZU-SF13tMBqAmrStZYJ_wkWxIIwvx2Qx9r13ST7azQi6TQdtIkSstBvmdH9p8JOLGH-yTpuOZw_hmNmrY29XELpNB20iRKy0G-Z0f2nwk4sYf7JOm45nD-GY2atjb1cQq29YnWmhJsq_6kA-yGBjDBSSMig557U6eQxElxDLQM36TQdtIkSstBvmdH9p8JOLGH-yTpuOZw_hmNmrY29XELpNB20iRKy0G-Z0f2nwk4sYf7JOm45nD-GY2atjb1cQuk0HbSJErLQb5nR_afCTixh_sk6bjmcP4ZjZq2NvVxC16PSabBY2rhfbXywzkmYD1yZ7vX34kG9WzIoM7iPGxohX5QBlT0PmowiwPH1j4yr3-yvZB07MlFe9t2Xo97Ra8NXvG1imNjt1OTFezETO1gv9jUL424heI1b19FJrINqHgVBc8HdwUerQ7wKtJcDj7yUGgZrX2ZE81FqOC4j9AM-xkuBik3FwUL4OOeLYWC3F2TL9Q9BP-8mL4T4w-QyJiULEf9fqW1_VAWnRaa_MJBTIxTOusvgIMLS5iMzmKgxrb1idaaEmyr_qQD7IYGMMFJIyKDnntTp5DESXEMtAzetvWJ1poSbKv-pAPshgYwwUkjIoOee1OnkMRJcQy0DNz2Vg4Sx3krUcdSob92OtHju_vE7T-JrcYrEPfGatLdaPZWDhLHeStRx1Khv3Y60eO7-8TtP4mtxisQ98Zq0t1o9lYOEsd5K1HHUqG_djrR47v7xO0_ia3GKxD3xmrS3Wj2Vg4Sx3krUcdSob92OtHju_vE7T-JrcYrEPfGatLdaPZWDhLHeStRx1Khv3Y60eO7-8TtP4mtxisQ98Zq0t1oDkPQLiyHWNuXAYgcNB0EDnckMYoxxmLsOftn4AD-03atdtFh8LTbB37QL6BCThD-LAQAAAAAAAAAn9FsZELDJr6avOfisoqa65v6swF2TK711cFe0pECgVgFBAAAAAAAAAEkgZ290IHZhY2NpbmF0ZWQgb24gT2N0b2JlciAxc3QsIDIwMjMgd2l0aCBhbiBhdXRob3JpemVkIHZhY2NpbmUuAABhYoKkYWGKCQoLAwQFBgcAAmFiDGFjhQABAgMEYWQFpGFhhwcIAAECAwRhYglhY4UAAQIDBGFkBQ"
+  },
+  "holder": "ppid:urY2F5DFiKzajyS3Ysf8P8wYfF4YU6nda1U0OLeWr5Uic4Dx0znpyN4l6d7fu5G-K",
+  "verifiableCredential": [
+    {
+      "type": "VerifiableCredential",
+      "proof": {
+        "type": "DataIntegrityProof",
+        "created": "2024-03-26T05:42:46.557Z",
+        "cryptosuite": "bbs-termwise-bound-signature-2023",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:example:issuer0#bls12_381-g2-pub001"
+      },
+      "credentialSubject": {
+        "type": "Person",
+        "isPatientOf": {
+          "type": "Immunization",
+          "vaccinationDate": "2023-10-01T12:00:00Z",
+          "vaccine": "_:b4"
+        }
+      },
+      "expirationDate": "2025-10-01T12:30:00Z",
+      "issuanceDate": "2023-10-01T12:30:00Z",
+      "issuer": "did:example:issuer0"
+    },
+    {
+      "type": "VerifiableCredential",
+      "proof": {
+        "type": "DataIntegrityProof",
+        "created": "2024-03-26T05:43:08.520Z",
+        "cryptosuite": "bbs-termwise-signature-2023",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:example:issuer1#bls12_381-g2-pub001"
+      },
+      "credentialSubject": {
+        "id": "_:b4",
+        "type": "Vaccine",
+        "status": "authorized"
+      },
+      "expirationDate": "2026-01-01T00:00:00Z",
+      "issuanceDate": "2023-01-01T00:00:00Z",
+      "issuer": "did:example:issuer1"
+    }
+  ]
+}

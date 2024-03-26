@@ -1,0 +1,61 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://www.w3.org/ns/data-integrity/v1",
+    "https://schema.org/",
+    "https://zkp-ld.org/context.jsonld"
+  ],
+  "type": "VerifiablePresentation",
+  "proof": {
+    "type": "DataIntegrityProof",
+    "created": "2024-03-26T05:58:44.454Z",
+    "challenge": "I live in a city with a population of 10,000.",
+    "cryptosuite": "bbs-termwise-proof-2023",
+    "domain": "example.org",
+    "proofPurpose": "authentication",
+    "proofValue": "uomFhWQibAwAAAAAAAAAAhkHbO7W0rW9QIaahBQeVn4Xm42kEdR775ixO3iP9mf_S451HjuZ1iqZqghc41YUYp9yjVhnh8drmFCvmSRBs4uv-aJE0wsVl2bxfXk1gDKbwKcJdB0X7N-f5qukRqrnuglOyE-cku_7sACoptksh-MmnoJ23qQjjhvvQY6bIJQlJLw0JisNoxZ5yDoecT9BUkhuo75MlgQaioLio8jSVlesM5xm98phQ72xyUfbwNrFWO5w0q-qk_eER6-X0KedYAgAAAAAAAADA4vUSG8fVoMbeW0f_kRF84-4gApMFrgdHaBZh0eExUjAN3GVfjm6R-nWCz2klLvTq8B8Q2_K4G9nfdU-9IidLqdXjffnoAR1haZHsOOuyldBYXi5wqQy9nQBq7iScbjtsf7nWtIJbwIrQijJFfRG6EgAAAAAAAACDOtO14vovSMoTENSr-vjvZCJbX3jPfHRYV5UtKhZLRRVyTgyHvKyb26lX3h0JfOtyv6V3Dxz2TubCCSLvQIxoh8EpaSRs7JF81OCk4R-VCf8G5b7cKc-N0tSZBqJ570wEQY0UFtj6gzXiURi1EQiYwEtJ5TJwuAV4jRh64H0WFJ96JhMUFhQ9Y0JJqQqwMnmCvBeQYYzQFTKQWyTCZ1ReX5c082WrgvT8CYVr0pYqWnjVIYQAPZ65CF3OvgubJz6HwSlpJGzskXzU4KThH5UJ_wblvtwpz43S1JkGonnvTM1bzO6_NYLl0lC3gnMpcpXrXMmfBSuHXxuEl8aYP7sMzVvM7r81guXSULeCcylyletcyZ8FK4dfG4SXxpg_uwyHwSlpJGzskXzU4KThH5UJ_wblvtwpz43S1JkGonnvTM1bzO6_NYLl0lC3gnMpcpXrXMmfBSuHXxuEl8aYP7sMzVvM7r81guXSULeCcylyletcyZ8FK4dfG4SXxpg_uwzNW8zuvzWC5dJQt4JzKXKV61zJnwUrh18bhJfGmD-7DHDVkt2O-k9EvSqX1Kw2kHWJ-j6NJNhEw7j2zBK1EmRycNWS3Y76T0S9KpfUrDaQdYn6Po0k2ETDuPbMErUSZHJw1ZLdjvpPRL0ql9SsNpB1ifo-jSTYRMO49swStRJkcnDVkt2O-k9EvSqX1Kw2kHWJ-j6NJNhEw7j2zBK1EmRycNWS3Y76T0S9KpfUrDaQdYn6Po0k2ETDuPbMErUSZHIAghFvWMbIB-1xgHrfgm_w1DqjNNLNxoBjwHN1TNQ5zmLaRs6oANS_wLUI4tOtAWhKt9zzzzAp-WG2XQFVoEbp05XsnbX9zSIUSrXl4mM5LbRWs5m3I3-kfZuiGsdYLFqOps4OICtYZGzqMi7mYnSq-XiYFl4wy9CLJkeALdkJGF2vrxRe8t9DNTnBbDzDh9WXldVwrGZIXf1Xe1EcpmTrv3KDdvVgM8UTvGbbTzx-qBtjInnbmkSiNaOw3FM_XC_SAgAAAAAAAABCjIHatI8xnRAISIQ8or8VxZaoJKmpP9xXOAjuBickGg5o0vkOdT4cM0Xr2qmF9S6Pj34cazwEnXzLwYcU6fkKsl-LLYhKXuoWRLu4LQ2gg2BhG2CcaTLIaTHrqVFEqBPYGUsbqhqhahbJKYfAyJLJGgAAAAAAAADOXOxwL6TjEtcbMyUG94ovLAZaakLc1R1_ilATTEukUA-E1689LS3fAysZ3mtM1JJiiKoKW0E3tvCKuML_rGIhCsfvpGhAdcA7OH-nsoslI24Y7m3IP6dZ_74KpM_EkENFaBRCJ-zh2PaJv82jSOHluOwPLoqezV-NtC5H5k8LRHghr9FyrOih993ThQ05wLaaJ_D1P09xQxi1Z1EcUDMB1GNtUMLmCEy59UXSNnJWKQ-isyowj_5-KzBVY2JiOmKiSM8No3oncpOZrgOsynWoMxfZp2Gt_s_HvVABirNcALTFf-0prPAVxRHz8FzK8FLe80kXLGN9i-1UxOV-gkMxH2_0lh1yLc7NmoAXR2_0bZOOqw0a2l76ewFsgxxHlzt7trO9riwfu7OAFfIj2Emnc7KYjscr4xzmKqp_E1waAngsbN1eGxgRebiHFg1LxtbDHYwZmZwOkH3VfI89vRYLYHvr5vjYPbfKz68By3iIbaE6J2uRdyWl4skIA_IQ5CYGOxeKt8TNjeb8MShVtoeZaWMupV9wF07ddl4B942uD4fBKWkkbOyRfNTgpOEflQn_BuW-3CnPjdLUmQaiee9MBjsXirfEzY3m_DEoVbaHmWljLqVfcBdO3XZeAfeNrg8N_4uUIQEKy5jsTMx69Gn9wAgQuO5kIrEXuiKZMLR8FQ3_i5QhAQrLmOxMzHr0af3ACBC47mQisRe6IpkwtHwVBjsXirfEzY3m_DEoVbaHmWljLqVfcBdO3XZeAfeNrg8N_4uUIQEKy5jsTMx69Gn9wAgQuO5kIrEXuiKZMLR8FQ3_i5QhAQrLmOxMzHr0af3ACBC47mQisRe6IpkwtHwVDf-LlCEBCsuY7EzMevRp_cAIELjuZCKxF7oimTC0fBXLGnn9xEW2DIe1l9JDuW9lmR3yT0VF9-GtXFMQrDYyCMsaef3ERbYMh7WX0kO5b2WZHfJPRUX34a1cUxCsNjIIyxp5_cRFtgyHtZfSQ7lvZZkd8k9FRffhrVxTEKw2MgjLGnn9xEW2DIe1l9JDuW9lmR3yT0VF9-GtXFMQrDYyCMsaef3ERbYMh7WX0kO5b2WZHfJPRUX34a1cUxCsNjIIA5TjWXL56r_DyQZDud0_WsAEcbYvy2jhJhfsK1HpqPmwO_RUfgBK1j4_ypff7KLoUwEAAAAAAAAACsfvpGhAdcA7OH-nsoslI24Y7m3IP6dZ_74KpM_EkEMBLQAAAAAAAABJIGxpdmUgaW4gYSBjaXR5IHdpdGggYSBwb3B1bGF0aW9uIG9mIDEwLDAwMC4AAGFigqRhYYcAAgMEBQYHYWIIYWOFAAECAwRhZAWkYWGHBQYHCAkDBGFiCmFjhQABAgMEYWQF"
+  },
+  "holder": "ppid:ut5p5SBOrku9wn-nQ_h0UFXeq2ibYzgu6VcNRoodggvPfno_z4--aWpf784MGkbT2",
+  "verifiableCredential": [
+    {
+      "type": "VerifiableCredential",
+      "proof": {
+        "type": "DataIntegrityProof",
+        "created": "2024-03-26T05:55:38.493Z",
+        "cryptosuite": "bbs-termwise-bound-signature-2023",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:example:issuer0#bls12_381-g2-pub001"
+      },
+      "credentialSubject": {
+        "type": "Person",
+        "homeLocation": {
+          "id": "_:b6"
+        }
+      },
+      "expirationDate": "2026-01-01T00:00:00Z",
+      "issuanceDate": "2023-01-01T00:00:00Z",
+      "issuer": "did:example:issuer0"
+    },
+    {
+      "type": "VerifiableCredential",
+      "proof": {
+        "type": "DataIntegrityProof",
+        "created": "2024-03-05T08:52:48.062Z",
+        "cryptosuite": "bbs-termwise-signature-2023",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:example:issuer1#bls12_381-g2-pub001"
+      },
+      "credentialSubject": {
+        "id": "_:b6",
+        "type": "Place",
+        "maximumAttendeeCapacity": {
+          "type": "xsd:integer",
+          "@value": "10000"
+        }
+      },
+      "expirationDate": "2026-01-01T00:00:00Z",
+      "issuanceDate": "2023-01-01T00:00:00Z",
+      "issuer": "did:example:issuer1"
+    }
+  ]
+}

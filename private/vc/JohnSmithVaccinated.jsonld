@@ -1,0 +1,43 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://www.w3.org/ns/data-integrity/v1",
+    "https://schema.org/",
+    {
+      "vaccinationDate": {
+        "@id": "http://example.org/vocab/vaccinationDate",
+        "@type": "xsd:dateTime"
+      },
+      "vaccine": {
+        "@id": "http://example.org/vocab/vaccine",
+        "@type": "@id"
+      },
+      "@vocab": "http://example.org/vocab/"
+    }
+  ],
+  "id": "http://example.org/credentials/vacvc/0",
+  "type": "VerifiableCredential",
+  "issuer": "did:example:issuer0",
+  "issuanceDate": "2023-10-01T12:30:00Z",
+  "expirationDate": "2025-10-01T12:30:00Z",
+  "credentialSubject": {
+    "id": "did:example:john",
+    "type": "Person",
+    "givenName": "John",
+    "isPatientOf": {
+      "type": "Immunization",
+      "vaccinationDate": "2023-10-01T12:00:00Z",
+      "lotNumber": "9999999",
+      "vaccine": "http://vaccine.example.org/code#123"
+    }
+  },
+  "proof": {
+    "@context": "https://www.w3.org/ns/data-integrity/v1",
+    "type": "DataIntegrityProof",
+    "created": "2024-03-26T05:56:09.245Z",
+    "cryptosuite": "bbs-termwise-bound-signature-2023",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "urKu5zQ6F1HrgRAk7ob_ujMI2q8DTtrQcBJZKSzrXlGaZ-nJ_qSUaKExi862lk_fgyrNdNn48Q369EuYrB0s-5kcPZzMYIXCqlL8y-SY_TwymuvTysDyNawbV7q68V47DM3CZ2ZPCPEGd8FgCwZOmNA",
+    "verificationMethod": "did:example:issuer0#bls12_381-g2-pub001"
+  }
+}

@@ -22,10 +22,10 @@
   "proof": {
     "@context": "https://www.w3.org/ns/data-integrity/v1",
     "type": "DataIntegrityProof",
-    "created": "2024-03-05T08:51:19.323Z",
+    "created": "2024-03-26T05:55:38.493Z",
     "cryptosuite": "bbs-termwise-bound-signature-2023",
     "proofPurpose": "assertionMethod",
-    "proofValue": "ugR3Y-G3laL7A6jAQZCL3P7nJ5Rhn2SFnsB6XBO8g1lM9xBzmxBFRvsfPlpVh1yL4hu8X0xBgrKYK6b9sI4zXCOvWdN_N1cLoowd7txND7kw9q7nUF1BlmiKhUHoOD3HavqMagNK1Iwdhoy_u6XbYXQ",
+    "proofValue": "uqmlCu_fXBFfKoLq2JB7-78PiaJicVF0ygZXnJWAEFYYJJTEadAqqeHN2FuYlGFZ4KySWhTx4nB6SkMBxEtd6T2Q9mxEY9pQLku3IzP8D_E1j1rrV_o7wNNO67K5FOHNbHAB9T1v5GpzXlCiFgCdiPg",
     "verificationMethod": "did:example:issuer0#bls12_381-g2-pub001"
   }
 }
