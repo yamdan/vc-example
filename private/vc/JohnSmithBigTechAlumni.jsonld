@@ -1,0 +1,30 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://www.w3.org/ns/data-integrity/v1",
+    "https://schema.org/"
+  ],
+  "id": "urn:uuid:6a9c92a9-2530-4e2b-9776-530467e9bbe0",
+  "type": "VerifiableCredential",
+  "issuer": "did:example:bigtech.edu",
+  "issuanceDate": "2024-03-31T00:00:00Z",
+  "credentialSubject": {
+    "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
+    "type": "Person",
+    "givenName": "John",
+    "familyName": "Smith",
+    "alumniOf": {
+      "id": "did:example:bigtech.edu",
+      "name": "Big Bang Institute of Technology"
+    }
+  },
+  "proof": {
+    "@context": "https://www.w3.org/ns/data-integrity/v1",
+    "type": "DataIntegrityProof",
+    "created": "2024-04-14T06:45:02.175Z",
+    "cryptosuite": "bbs-termwise-bound-signature-2023",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "uptl1_T1lYQozYVfevqw0AxS_e6ib6IiOBQF7YIs7FWZl9fsrf60pK5nmwJfULIlISOrMmMBlWiRGoUBGk5elfa2nwd_vhnyQnH99k4ayRjMI9mtoUSGHFdqHfGR0gIWYKcYYxv-GLlDkOHVu6A6KLg",
+    "verificationMethod": "did:example:bigtech.edu#bls12_381-g2-pub001"
+  }
+}
