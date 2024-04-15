@@ -1,0 +1,43 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://www.w3.org/ns/data-integrity/v1",
+    "https://schema.org/",
+    "https://zkp-ld.org/context.jsonld"
+  ],
+  "type": "VerifiablePresentation",
+  "proof": {
+    "type": "DataIntegrityProof",
+    "created": "2024-04-15T17:38:16.971Z",
+    "challenge": "See you at IIW 2024!",
+    "cryptosuite": "bbs-termwise-proof-2023",
+    "domain": "bsky.social",
+    "proofPurpose": "authentication",
+    "proofValue": "uomFhWQYhAgAAAAAAAAAAt0D-ihlZeV-SDCXA-fjk5q7g6wfaR7ig6zuAIWnNYxIJ-zVPzhRD2uLcTSDICovblLae-uH-L5B6sUO0CYOIzREhzsdWfk--7Dr3wXT3J6y0Z9gCItv86vpJx1C3XqkIrLJ1K7SDFa57i2s1bedYHCVKsiFr4qisxCTBDcVqWImC4Ut4hsgqW77NmtORhfLgjXZUah5-aUW70SzN80EM1xujt1trJnVXBo-xepps8I3VW1QPg80-CnnNiHcAm97dAgAAAAAAAACnlPoIH3uYoO7QvP8OSlmypNi9bZhyl1tE1hRJtGBWPyxHLpXPFHsAIwx7JTcsocF6apKHtg6IO6jYx8JfVzMxjDrP-lmCDuRjQwAJDV3FNTZE-sJiJ6oUj-rUUIWPQkQHTfBCygkIqOaNTPyHRQYKIwAAAAAAAAAY-w6mo4BimmGZO2xVwMyNHKlFLoOpisIg5jDPOIQtQ1N1t0cM3ZN6deSHvZsUxkh5qFOmFTnJv_3mAr_5IQdfpdTIHil3ba5MgjxF39n8CrE_WWPg94AtuLSf0UmNghjTj0PpVQ5c2a-rvGgaYvHpl_d4yBA4vnkB9a1M1ABNIdOPQ-lVDlzZr6u8aBpi8emX93jIEDi-eQH1rUzUAE0hGujIw4B3hXezRq_qIdZhd7wGnTybSE1Cbeq7bC8bahvTj0PpVQ5c2a-rvGgaYvHpl_d4yBA4vnkB9a1M1ABNIdOPQ-lVDlzZr6u8aBpi8emX93jIEDi-eQH1rUzUAE0hIvw96b1X1Sx6gki2YNAfr7q5nLHRzJ6gO0GOoBrJg1JH69HbSh24MmqK3lmb60ps5Oz6OLNLNnZwGgPGLtEdcSL8Pem9V9UseoJItmDQH6-6uZyx0cyeoDtBjqAayYNSIvw96b1X1Sx6gki2YNAfr7q5nLHRzJ6gO0GOoBrJg1Ii_D3pvVfVLHqCSLZg0B-vurmcsdHMnqA7QY6gGsmDUhroyMOAd4V3s0av6iHWYXe8Bp08m0hNQm3qu2wvG2obIvw96b1X1Sx6gki2YNAfr7q5nLHRzJ6gO0GOoBrJg1ID8xC-u2phPZjX_OUq-DdrhsK3WjmIX0X7gXjIyHJ_a1b6mEbv_KDfEWcKvqqGbquSpawkyJCUFQUy3JSbAocejDwxgSaM2j1SKnRKygBbuKdT-rDsCnGEe6Lu8lMb-DILSr9ctlbD8cT5QBjYDw_V5cABkoqYkQQ0EP74rJTlQeUHY9IMudMnFzlXJnlxXXyZntbv7WYjM2MYwo0x5uQWCfdQP1j24rHlgmxww6mrlCvLHqnaNGsTgB6Co-fPhx0a6MjDgHeFd7NGr-oh1mF3vAadPJtITUJt6rtsLxtqG7Y1e2wwisDqLc_ZpcTF3TT-xwOHI_WGYJVtOotDuRlIybmd9Nd1TLOgEZkcsWUUusAaDVSW3jbP34pKq2xipmRGtJuf0Okljo0wbahSTZbAVx8RbOQDYU1QHHM852tBRz3tgYJBXZq3MVKdLZytMSDElHfpysJlbI_MWGrebHJdiDgtpPfyaMb9uljx566RZ9ARauAP6FLPsg7y0L5WFwdXMviN4XZcGnHsoHhFnxk-ejCXeBF2kroCZSZbL-oqBkfr0dtKHbgyaoreWZvrSmzk7Po4s0s2dnAaA8Yu0R1xR-vR20oduDJqit5Zm-tKbOTs-jizSzZ2cBoDxi7RHXFYjIb1D6lIEB8XZIeJVCg_5iFWebQ8Hx_HKvIq3CHWHliMhvUPqUgQHxdkh4lUKD_mIVZ5tDwfH8cq8ircIdYeWIyG9Q-pSBAfF2SHiVQoP-YhVnm0PB8fxyryKtwh1h5YjIb1D6lIEB8XZIeJVCg_5iFWebQ8Hx_HKvIq3CHWHliMhvUPqUgQHxdkh4lUKD_mIVZ5tDwfH8cq8ircIdYeA5CZ-4F4KdhYxluy3YG-tnp7LHC57vq-EhaWT1PHXp1sRE8EUZvsFyRQ9ybvwkM6IwEAAAAAAAAApdTIHil3ba5MgjxF39n8CrE_WWPg94AtuLSf0UmNghgBFAAAAAAAAABTZWUgeW91IGF0IElJVyAyMDI0IQAAYWKBpGFhjAgLDg8AAQIDBAUGB2FiEGFjhQABAgMEYWQF"
+  },
+  "holder": "ppid:ugXQB6a2imUVdhxd0O7gMj8uWVzMI7BYiIF9xBHBUPFOvGWU9lk-InRLMfZWyqZ7r",
+  "verifiableCredential": {
+    "type": "VerifiableCredential",
+    "proof": {
+      "type": "DataIntegrityProof",
+      "created": "2024-04-15T16:18:21.852Z",
+      "cryptosuite": "bbs-termwise-bound-signature-2023",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:example:iiw2024.org#k"
+    },
+    "credentialSubject": {
+      "type": "EventReservation",
+      "reservationFor": {
+        "type": "Event",
+        "location": {
+          "type": "Place",
+          "name": "Computer History Museum"
+        },
+        "name": "IIW2024",
+        "startDate": "2014-04-16"
+      }
+    },
+    "issuanceDate": "2024-04-16T00:00:00Z",
+    "issuer": "did:example:iiw2024.org"
+  }
+}
