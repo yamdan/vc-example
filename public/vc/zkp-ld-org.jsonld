@@ -1,0 +1,31 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://www.w3.org/ns/data-integrity/v1",
+    "https://schema.org/"
+  ],
+  "id": "urn:uuid:4dae22ee-f5e5-4519-8944-84ab8c3e576c",
+  "type": "VerifiableCredential",
+  "issuer": "did:example:corporate-regsitry.jp",
+  "issuanceDate": "2023-01-01T00:00:00Z",
+  "credentialSubject": {
+    "id": "https://zkp-ld.org/",
+    "type": "Organization",
+    "name": "ZKP-LD Initiative Japan",
+    "address": {
+      "addressCountry": "JP",
+      "addressRegion": "Tokyo",
+      "addressLocality": "Chiyoda-ku",
+      "streetAddress": "1-2-3-4-5"
+    }
+  },
+  "proof": {
+    "@context": "https://www.w3.org/ns/data-integrity/v1",
+    "type": "DataIntegrityProof",
+    "created": "2024-04-15T16:31:07.579Z",
+    "cryptosuite": "bbs-termwise-signature-2023",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "umRA4C_7YdLDT04ejfA2xp-vNl3Tq-rNN4jbjFgNJIVYCyP19lWTKp2bmjL4zC5mo8tVzT7GXmSJ-rEIN4NqVkPYcKrya0n3LZV78hVgskQgxdGxRtLv8upJje6jCeH_HKxFucURjgGHz99nwIyFcKg",
+    "verificationMethod": "did:example:corporate-registry.jp#publickey"
+  }
+}

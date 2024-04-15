@@ -1,0 +1,59 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://www.w3.org/ns/data-integrity/v1",
+    "https://schema.org/",
+    "https://zkp-ld.org/context.jsonld"
+  ],
+  "type": "VerifiablePresentation",
+  "proof": {
+    "type": "DataIntegrityProof",
+    "created": "2024-04-15T16:40:48.960Z",
+    "challenge": "https://gold-experiment.blogspot.com/2024/04/graduating-from-bigtech-and-gearing-up.html",
+    "cryptosuite": "bbs-termwise-proof-2023",
+    "domain": "gold-experiment.blogspot.com",
+    "proofPurpose": "authentication",
+    "proofValue": "uomFhWQlGAwAAAAAAAAAAhyhF_eCRl84zMP2MsIWWvecd7l72g5cKmJ80SDcxZxhBznqJ0qDIngIYmGSDayg9sp6H9SB7_UPJfHPZowRA0MJAAO81qSgOf_YvN6JAFKNk_jFRStC3lNTOsaZCM9YApBpfXJqrkCa9HjN44vQuGiTLdurefn3htb3LOqgNF3P7rD11H3zDLDnpNjEWhNUZmKzAEB3E-_yLf-9E7RhFv1TMczLRB_mwuXnF_FZf9fu-ufF4YOZmXkGTMK6bTcr9AgAAAAAAAABDS42l4kGage1zROeF7xKcLo3oKFQdCv0it3_or1sGMWxDX0zZEWnWwQE-USO280UGBWQvKNiMcqHCnunzoPstjebMAZH5EoBTBMGWEDsaENwpIGywq7oBDxYdawVLGXqjlt0B3GX-DD9IV6ecM0AJFgAAAAAAAAABrdsCjL1-oEJVjK5Ar4uNoJA7b03Vjd5pAKploGBPYTf5kH4SR4X5TA3ade7_MIBfIk7Pg4xN7C2Ni-pJFAoSsNCD7WkffPj4SbJCEjTvQ1sSkQjqLuVOVF6o4eY32FnXqR-6mz9t2fIlJabR-UBDvlUVQxg5ToxZvVPLWSJZXe_g2HK0Cj8S6q6DWdes_lRsLoIwEr8FVGXQblTxaZ0k5VFA0E8IaeX8zsMNEJWA0xqeT0fi2INZqN-mOcVOnAZ9MZbpflmA_qovGXR0dhJprgs2zmItriKxjh2VnH_EbX0xlul-WYD-qi8ZdHR2EmmuCzbOYi2uIrGOHZWcf8RtI-QQKzqgeeTnBhPgPpHeqIqVvKwR4DgyhLaOc1WLwgx9MZbpflmA_qovGXR0dhJprgs2zmItriKxjh2VnH_EbX0xlul-WYD-qi8ZdHR2EmmuCzbOYi2uIrGOHZWcf8RtV9bB8gTOa_axTEjuqhF5kCF0jV_vJA4o0M75G36Ct1GnRGaI92en9WV9dAhvtGneNb0OmGUyUf9G27Roq7AsFcGsS3IlMYksDO9Qg62p3iouACgJp5E96DhDa59ErThQI-QQKzqgeeTnBhPgPpHeqIqVvKwR4DgyhLaOc1WLwgxddZb5VrJZyHiONSZkBR0NLMgddxHK5vl9YHGXTdl6QSPkECs6oHnk5wYT4D6R3qiKlbysEeA4MoS2jnNVi8IMWZksnXCBdbLXXXXE89DOwX5XjuSsFk_D3UHaLyTxUxVZmSydcIF1stdddcTz0M7BfleO5KwWT8PdQdovJPFTFVmZLJ1wgXWy1111xPPQzsF-V47krBZPw91B2i8k8VMVWZksnXCBdbLXXXXE89DOwX5XjuSsFk_D3UHaLyTxUxVZmSydcIF1stdddcTz0M7BfleO5KwWT8PdQdovJPFTFQCUD1_8fZIw5jDgA38zFwEdcal5SQyOSyMJy-IHS1PxEeAgMZPgYtjPRhOytS1woXirz0na1mgSStJUn5Z4EsIKJ1XoDLsEaj9k_L7W1W-pAiCZXJNz7b8GZBsktKsz2qeHm9JrRZXrXhoDMU7EdIyxKJCifmiBh2Ev4nyQ_hB5jxUYzjCYsH79xSkUidI3X_6ms0QTjrJjeYAb4TWQ3nqdLr7SKDk16T-C2XxJyONNzAwC8-CGyG2_KHYQAQOaiIMCAAAAAAAAAEOOt9ULoPPHWEil3ftE-AD8okmCcmT7uRr_JxANf85mWeQXZxwXRhkuaG0dQh2_lUmgHR3FntaTD6XWe6DmhhSiDFrcWQ74js0a_hu9ygrHPslp_CgOYUGE9Fk9XsBHZVfbN6QjUopNLd47-snntCsaAAAAAAAAACU325Tkc4uJqxNvhCj3W96YqDYVLhZFs6ai7oQyePMXWj3N_JgqBh5KYE63dPstmDvqfdim6cwzQskwzp91AUtddZb5VrJZyHiONSZkBR0NLMgddxHK5vl9YHGXTdl6QYSNzbmv5FRh5ogG3Hi1lmMGa8JTqBCsHbrj-1e2D4tBENe1xXBBASaNVIva4a01I8DzbMTZNMi-vwmZ93RDkk8vP6DRnrqN4q2kbJK3_ZqZLjsHDN3i8BUa9ldH4HwrYVL8PaDYQVT9T4-SpbT4XEnRiDU6UDMJaCoxubi1HfceXXWW-VayWch4jjUmZAUdDSzIHXcRyub5fWBxl03ZekGshnAGMn4wlikd2aDRODNZh3zdmT78H_qYk7dsfJ1OOayGcAYyfjCWKR3ZoNE4M1mHfN2ZPvwf-piTt2x8nU45XXWW-VayWch4jjUmZAUdDSzIHXcRyub5fWBxl03ZekGshnAGMn4wlikd2aDRODNZh3zdmT78H_qYk7dsfJ1OOayGcAYyfjCWKR3ZoNE4M1mHfN2ZPvwf-piTt2x8nU45hI3Nua_kVGHmiAbceLWWYwZrwlOoEKwduuP7V7YPi0FZhMGOPRwhiq3B48YCiiGOxDiD4jkJeaChtdysRAKZXJDZeHRxqCc8WbhkEq_ggTBWuI2jbzeoLl30z_lz8G5tu9CZCQB0DmsA5FpBCTnMhzg8AaCEroze2q0Fj-fq_SuEjc25r-RUYeaIBtx4tZZjBmvCU6gQrB264_tXtg-LQVfJn5-YcQsdkBeqPAiRiJNaNjZ3CoYWNnRXh2BZ5L8IFRfRpCpwSwMhVoz_couI1faqJfl75LQIS2llIsNUv3AAUY_38jjwi4UODcXCSXhC8ZrCPFR8LRE15RAdHVF1WQ_FuXYD-X5IDETc3ykCqm01yJ02nvpnLjrz9JAHdqNoD8W5dgP5fkgMRNzfKQKqbTXInTae-mcuOvP0kAd2o2gPxbl2A_l-SAxE3N8pAqptNcidNp76Zy468_SQB3ajaA_FuXYD-X5IDETc3ykCqm01yJ02nvpnLjrz9JAHdqNoD8W5dgP5fkgMRNzfKQKqbTXInTae-mcuOvP0kAd2o2gDpQibaCM7nXqlsRchychCNw2hLC31VLzux9Y6qmw-lHKQTLQu612U3d3evHsoX9SQAQAAAAAAAACw0IPtaR98-PhJskISNO9DWxKRCOou5U5UXqjh5jfYWQFYAAAAAAAAAGh0dHBzOi8vZ29sZC1leHBlcmltZW50LmJsb2dzcG90LmNvbS8yMDI0LzA0L2dyYWR1YXRpbmctZnJvbS1iaWd0ZWNoLWFuZC1nZWFyaW5nLXVwLmh0bWwAAGFigqRhYYYGBwECAwRhYghhY4UAAQIDBGFkBaRhYYgHCQACAwQFBmFiC2FjhQABAgMEYWQF"
+  },
+  "holder": "ppid:uom5L_KGwxh60NJ7BF3I2EHo1QIxSoirAqRR8GqHDuDy-pcEt4YySldixNtfWFAor",
+  "verifiableCredential": [
+    {
+      "type": "VerifiableCredential",
+      "proof": {
+        "type": "DataIntegrityProof",
+        "created": "2024-04-15T16:30:14.321Z",
+        "cryptosuite": "bbs-termwise-bound-signature-2023",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:example:tokyo-corporate-union.jp#k1"
+      },
+      "credentialSubject": {
+        "type": "Person",
+        "worksFor": {
+          "id": "_:b5"
+        }
+      },
+      "issuanceDate": "2024-04-01T00:00:00Z",
+      "issuer": "did:example:tokyo-corporate-union.jp"
+    },
+    {
+      "type": "VerifiableCredential",
+      "proof": {
+        "type": "DataIntegrityProof",
+        "created": "2024-04-15T16:31:07.579Z",
+        "cryptosuite": "bbs-termwise-signature-2023",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:example:corporate-registry.jp#publickey"
+      },
+      "credentialSubject": {
+        "id": "_:b5",
+        "type": "Organization",
+        "address": {
+          "addressCountry": "JP",
+          "addressRegion": "Tokyo"
+        }
+      },
+      "issuanceDate": "2023-01-01T00:00:00Z",
+      "issuer": "did:example:corporate-regsitry.jp"
+    }
+  ]
+}

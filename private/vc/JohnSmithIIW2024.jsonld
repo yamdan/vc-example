@@ -1,0 +1,37 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://www.w3.org/ns/data-integrity/v1",
+    "https://schema.org/"
+  ],
+  "id": "urn:uuid:06c28716-b004-4f08-a5a2-1c749dc8bcbd",
+  "type": "VerifiableCredential",
+  "issuer": "did:example:iiw2024.org",
+  "issuanceDate": "2024-04-16T00:00:00Z",
+  "credentialSubject": {
+    "type": "EventReservation",
+    "reservationId": "E123456789",
+    "underName": {
+      "givenName": "John",
+      "familyName": "Smith"
+    },
+    "reservationFor": {
+      "@type": "Event",
+      "name": "IIW2024",
+      "startDate": "2014-04-16",
+      "location": {
+        "@type": "Place",
+        "name": "Computer History Museum"
+      }
+    }
+  },
+  "proof": {
+    "@context": "https://www.w3.org/ns/data-integrity/v1",
+    "type": "DataIntegrityProof",
+    "created": "2024-04-15T16:18:21.852Z",
+    "cryptosuite": "bbs-termwise-bound-signature-2023",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "ugVSdn_yLoBRlUce1Pdw_9RQhVbzS6rUyDk9fF3INlPHZrv9dpO7SB2OTJKPZQPzGgFcvjNli4f9ebdxOTu3cSzO-pZO7oJ9xktVQDZigIzVlBwIDruOiHGCLmAYoLuewzSmHC-u8FYBBKC9h-rcIcw",
+    "verificationMethod": "did:example:iiw2024.org#k"
+  }
+}

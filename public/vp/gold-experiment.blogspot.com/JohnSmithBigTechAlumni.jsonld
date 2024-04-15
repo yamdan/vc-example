@@ -1,0 +1,38 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://www.w3.org/ns/data-integrity/v1",
+    "https://schema.org/",
+    "https://zkp-ld.org/context.jsonld"
+  ],
+  "type": "VerifiablePresentation",
+  "proof": {
+    "type": "DataIntegrityProof",
+    "created": "2024-04-15T16:38:14.782Z",
+    "challenge": "https://gold-experiment.blogspot.com/2024/04/graduating-from-bigtech-and-gearing-up.html",
+    "cryptosuite": "bbs-termwise-proof-2023",
+    "domain": "gold-experiment.blogspot.com",
+    "proofPurpose": "authentication",
+    "proofValue": "uomFhWQSlAgAAAAAAAAAAgxvxPUUaVXzY4svkvlEKbH3ALigfeqzUyL5buUkQgF_qfa8QxAJ-0Xpg76tqdafxrheLzO_HYFLVvt4spywToL2YTs7XY7FgeogR_nLGZEybimjq_Huz43HVBxy0bcVXoX6lt6FxIRbOhl-1S7w66gdFTiZDhejT7oWN1805h6IbQW04Y5m8UhiPsUP9X9OWqxv8YkSykfEakFTscluDwafXNwJ3dT3Lt1dOiTP0fb2Whb_I4SgbTKcaFjNJAxriAgAAAAAAAAD2VRfy8wCPjahueLlHls8YcKMfUD8eTVQEjd7mMGyQXajabulQqxi0yv-s2livq37-Ko74XM6ja-6rv6wXPEQWh-HyWlYNGsOV69pMJ4OzmpHX3hZKg0F7tJo11DNLfEEfLYPc9R7nPBhC0sV5ldbOFQAAAAAAAABdM_hxVWZysKUgwsLX9GredDIi6g5xvvKwViIx8mT3QrvTX_EQHUEbQDD2PdR0KQ7dBe337wCmPdgIGnbP1gVoXOFVGka9G4KF-bnYIZIDwMnjJoVr3tzueVL097BtVGZRSratf8MbrAaMGN4IbrjELuMZeZ3K_IhgQR2o7drVI1FKtq1_wxusBowY3ghuuMQu4xl5ncr8iGBBHajt2tUj1Arnz9efibgxYL-obBN5lAYGX8PBmxPtLY29pfg6BBBRSratf8MbrAaMGN4IbrjELuMZeZ3K_IhgQR2o7drVI1FKtq1_wxusBowY3ghuuMQu4xl5ncr8iGBBHajt2tUj1Arnz9efibgxYL-obBN5lAYGX8PBmxPtLY29pfg6BBAe106cP6cCGY1W10_CtijkVwKILt5Oj12_4JI-UzVTWX3A-etO4QBnJnupkS-cXzK0Y_ewUOl5WgZDu6pYi_gokTbGlKTi0cGVOUgyXvlJnNChuX3Fg8cHE5rgrjtM8FjWUcCHwL2Ay4Do22_QEaUEGkyrqSzrASDYALGeKHoTJU3ywoiZvHhM307reT2RIApBOtF77yKVaoFxE4k-Oj4bFfuXXrOBANkqVITvm--EyjAhAf0Ue5p1Ig2MwDxWOlvUCufP15-JuDFgv6hsE3mUBgZfw8GbE-0tjb2l-DoEEIEdD4-O_B-Ov1vjUb3DKu95mTs6piI26cx4dwzOJAAWgR0Pj478H46_W-NRvcMq73mZOzqmIjbpzHh3DM4kABaBHQ-Pjvwfjr9b41G9wyrveZk7OqYiNunMeHcMziQAFoEdD4-O_B-Ov1vjUb3DKu95mTs6piI26cx4dwzOJAAWgR0Pj478H46_W-NRvcMq73mZOzqmIjbpzHh3DM4kABYDiLikdz4-6IppnnxXPKjJVYCOIEreMo0DIkIy2GxZbLYlBIBrWUOvFYSF14PNN5UzAQAAAAAAAABc4VUaRr0bgoX5udghkgPAyeMmhWve3O55UvT3sG1UZgFYAAAAAAAAAGh0dHBzOi8vZ29sZC1leHBlcmltZW50LmJsb2dzcG90LmNvbS8yMDI0LzA0L2dyYWR1YXRpbmctZnJvbS1iaWd0ZWNoLWFuZC1nZWFyaW5nLXVwLmh0bWwAAGFigaRhYYcAAQIDBAUIYWIJYWOFAAECAwRhZAU"
+  },
+  "holder": "ppid:uom5L_KGwxh60NJ7BF3I2EHo1QIxSoirAqRR8GqHDuDy-pcEt4YySldixNtfWFAor",
+  "verifiableCredential": {
+    "type": "VerifiableCredential",
+    "proof": {
+      "type": "DataIntegrityProof",
+      "created": "2024-04-15T16:37:15.941Z",
+      "cryptosuite": "bbs-termwise-bound-signature-2023",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:example:bigtech.edu#bls12_381-g2-pub001"
+    },
+    "credentialSubject": {
+      "type": "Person",
+      "alumniOf": {
+        "id": "did:example:bigtech.edu",
+        "name": "Big Bang Institute of Technology"
+      }
+    },
+    "issuanceDate": "2024-03-31T00:00:00Z",
+    "issuer": "did:example:bigtech.edu"
+  }
+}

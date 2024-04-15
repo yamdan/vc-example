@@ -1,0 +1,43 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://www.w3.org/ns/data-integrity/v1",
+    "https://schema.org/",
+    "https://zkp-ld.org/context.jsonld"
+  ],
+  "type": "VerifiablePresentation",
+  "proof": {
+    "type": "DataIntegrityProof",
+    "created": "2024-04-15T16:33:29.762Z",
+    "challenge": "https://gold-experiment.blogspot.com/2024/04/graduating-from-bigtech-and-gearing-up.html",
+    "cryptosuite": "bbs-termwise-proof-2023",
+    "domain": "gold-experiment.blogspot.com",
+    "proofPurpose": "authentication",
+    "proofValue": "uomFhWQZlAgAAAAAAAAAApOMBiU2x3xdnCe1KzSa8foFU3ZuLKrhvf_0KDTQrXf7kTQLmZEivlXSPw2-9v7tnhOJ2KG_lAR6VCs8EOzy5tU60G6LeN0wguNw7w9vMhy9Acw5PHjf5Sb2UTl5hd3jJgo2Hi5KUYVaFwF8CTiD5hbyAfYXJNb0q1A2LNP7ySP-2x8ipLRkqdsYkR9a2Ok13tr9cvoDyTlV_EKV5WObCbxk-RzzpiZcXoIhT-3zXuajNXsPqqztWG0UzpVp2QIxQAgAAAAAAAABqlJQanz0NT7VUv_075Z1Bg_MwSd0A4hIyiH3HrBdiVwmxrXJJKHtUrxQol9A1Soz0A6_Sw9iFBeSBP5BwlKchi7ROfqRG5aoQI9a6XfG-kogTSTmd-FW26mXKn12RtlBGaF1_S2TMhdrC38nlZVUDIwAAAAAAAAAbd5lP_1fvuqGcrMnuaTqLH4JIVPQNSMKPWLpMnQ4rBcyl8kZdiI5KgPFUMFYOvNsC1hXOXCoSRiPTzU6gD9BogmhLLUbr4Sl1-DYg-TM0404L2ifhlS9UY2s1lFe-aVoRts5heFNX5wuJR6mjjEhkWZva4uMYD3rUMvoxlTJtABG2zmF4U1fnC4lHqaOMSGRZm9ri4xgPetQy-jGVMm0Auq4rktpI3UyT3uG4IPgzLTFkumiwSoYJNJYw3ClzFXIRts5heFNX5wuJR6mjjEhkWZva4uMYD3rUMvoxlTJtABG2zmF4U1fnC4lHqaOMSGRZm9ri4xgPetQy-jGVMm0ApNdhKkwwi_GD8rLyYiJWCl8dsC6XWwopnHeeUfT_3xkE04Wr0BWa8cmDmMKa9Ev1-G882c36CHFhF4L1h_PyYaTXYSpMMIvxg_Ky8mIiVgpfHbAul1sKKZx3nlH0_98ZpNdhKkwwi_GD8rLyYiJWCl8dsC6XWwopnHeeUfT_3xmk12EqTDCL8YPysvJiIlYKXx2wLpdbCimcd55R9P_fGbquK5LaSN1Mk97huCD4My0xZLposEqGCTSWMNwpcxVypNdhKkwwi_GD8rLyYiJWCl8dsC6XWwopnHeeUfT_3xmKkoa5kwGgUMA86rmBxZXnzhfJQ8ZVLKKj24ncTYVRXAB3MP8QwYMw0T-edESUBpDmOiUi1Wn2HU4tPacN74hFDWXoKxUS4LzlkiyLtrWWoA6FHQr8Y873AAJ2ueifCjPe3PmBKFjedG1MCazDObJe_2GXjsClloYC3oVR-qAiZyeekQn9ehhBhWVUYO4k5JrmVFEDJl-dwdUeZbF7I8pBK5I865LUxxCmge1ciQpiX7buNmACAJuU9CW5Cdjd72u6riuS2kjdTJPe4bgg-DMtMWS6aLBKhgk0ljDcKXMVcsqJbf3LGYayH0j9zqRKwOT4bk79pCx05mkOtErOXz4EzVfgGeUXYLCRIgkNamMwcX_BgoWyFZjGV6Cc_ixFawx-DUvBp_UgElu2P67AK4pHq_fv0FAyuzjGMrwdWMLST-jvAEzNqt9Qvu3zlgATdn6_kTzM4WP4ffR9dMWA3pQ-BffDAfDSLC65iou3EqvDWY6QS624uyNTvQSWTte6CDGWpDWuEh1c5bOKVhAC35bvUnRZsA9RwzEZ667957p0MwTThavQFZrxyYOYwpr0S_X4bzzZzfoIcWEXgvWH8_JhBNOFq9AVmvHJg5jCmvRL9fhvPNnN-ghxYReC9Yfz8mFfBoej_k5X4iO5-vYRw64Ju4pK691t3fbAVKWPKPr4Xl8Gh6P-TlfiI7n69hHDrgm7ikrr3W3d9sBUpY8o-vheXwaHo_5OV-Ijufr2EcOuCbuKSuvdbd32wFSljyj6-F5fBoej_k5X4iO5-vYRw64Ju4pK691t3fbAVKWPKPr4Xl8Gh6P-TlfiI7n69hHDrgm7ikrr3W3d9sBUpY8o-vheA4xTDcnsDyS7hlb0-K2KCoqZ4VEmueLXI2c0x-Yrc8Vyuk1Azlu-vsExWb_5kGM-PQEAAAAAAAAAgmhLLUbr4Sl1-DYg-TM0404L2ifhlS9UY2s1lFe-aVoBWAAAAAAAAABodHRwczovL2dvbGQtZXhwZXJpbWVudC5ibG9nc3BvdC5jb20vMjAyNC8wNC9ncmFkdWF0aW5nLWZyb20tYmlndGVjaC1hbmQtZ2VhcmluZy11cC5odG1sAABhYoGkYWGMCAsODwABAgMEBQYHYWIQYWOFAAECAwRhZAU"
+  },
+  "holder": "ppid:uom5L_KGwxh60NJ7BF3I2EHo1QIxSoirAqRR8GqHDuDy-pcEt4YySldixNtfWFAor",
+  "verifiableCredential": {
+    "type": "VerifiableCredential",
+    "proof": {
+      "type": "DataIntegrityProof",
+      "created": "2024-04-15T16:18:21.852Z",
+      "cryptosuite": "bbs-termwise-bound-signature-2023",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:example:iiw2024.org#k"
+    },
+    "credentialSubject": {
+      "type": "EventReservation",
+      "reservationFor": {
+        "type": "Event",
+        "location": {
+          "type": "Place",
+          "name": "Computer History Museum"
+        },
+        "name": "IIW2024",
+        "startDate": "2014-04-16"
+      }
+    },
+    "issuanceDate": "2024-04-16T00:00:00Z",
+    "issuer": "did:example:iiw2024.org"
+  }
+}

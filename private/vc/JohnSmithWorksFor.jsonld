@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://www.w3.org/ns/data-integrity/v1",
+    "https://schema.org/"
+  ],
+  "id": "urn:uuid:a9389b9c-e51c-4678-975e-b2fd87631ca8",
+  "type": "VerifiableCredential",
+  "issuer": "did:example:tokyo-corporate-union.jp",
+  "issuanceDate": "2024-04-01T00:00:00Z",
+  "credentialSubject": {
+    "type": "Person",
+    "name": "John Smith",
+    "worksFor": {
+      "id": "https://zkp-ld.org/",
+      "name": "ZKP-LD Initiative Japan"
+    }
+  },
+  "proof": {
+    "@context": "https://www.w3.org/ns/data-integrity/v1",
+    "type": "DataIntegrityProof",
+    "created": "2024-04-15T16:30:14.321Z",
+    "cryptosuite": "bbs-termwise-bound-signature-2023",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "ujBY12fwlyNWl0asAYiEe6bLeD1harzo2d_Jxj1eJ8yhLKDltNj6ROHYYyJqan1Ea6xXojSavS8oWe5TFmAwAJ9LwHwYhDiUbPA7At-lz1ALe9J4ljJ_CjQeLu7qgGpX4efO4RfdcuD8q4iVRy_UfGg",
+    "verificationMethod": "did:example:tokyo-corporate-union.jp#k1"
+  }
+}
