@@ -1,0 +1,59 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://www.w3.org/ns/data-integrity/v1",
+    "https://schema.org/",
+    "https://zkp-ld.org/context.jsonld"
+  ],
+  "type": "VerifiablePresentation",
+  "proof": {
+    "type": "DataIntegrityProof",
+    "created": "2024-04-18T20:26:35.342Z",
+    "challenge": "@yamdan.bsky.social",
+    "cryptosuite": "bbs-termwise-proof-2023",
+    "domain": "bsky.social",
+    "proofPurpose": "authentication",
+    "proofValue": "uomFhWQZpAwAAAAAAAAAAuAaNsc4VUM7Q244kVJyYR-ZC83OiB_DD4sq_5aSRtCGe2q8cCZlP-hlouuMnog-puJ4orzJNDKV1iMZWVDCERaK-5zl7gsA9RsBKnL5iYAkS6ClqtlX2xS7ccxEMzxXSgoxh6iwUWXz_J4GVqiJzq1YM34QvbTv8xKqkZnDo7T-IYmWk98ukrHJuh-LYYe4jre5uqxLK-vIyoZY2XSVyfrfuwaaGxZnSo1WvGP84kvLHaQtHCmIlzf3WgfNCrM06AgAAAAAAAAD2dljC8YjIL1BSwfqC0VpJCLmqBLDz3zN2efkJ1IYIGySoj-oQSOFVn1Rxa30_Tnfun5JaubMsU4tnflnFYdVoorziVlTz7uR1daFHFbgvD8tES8Ywhqhkwwh3qI9jueEZCc_fMl0r0iOxQn_Zp3FGGgAAAAAAAABBfAnTrpD7OEujd-97D-UolXMOOPfW1Yk3bw6gjRHSKztN1X9Ia0LFWBKYMCrBWvVT8sUOMuPrj5lhzHL4uTBbdG6O59Son_myMLHFid_Ec2njb38TzHoadUrFqCdn9VUOOY_yi94eKJedah3NEVmrO22RcbZAblRbimT--wD_CK0Bj-8XCkkA2ZNhuWz-OJHszxA8zLEAs8x0z608G4UQxvu25ezZGeIM-nZY44O37GSgvD85jaLZ7-Ayuy2wyUgTu5dbpHM-IGMkAp0JcLEdv4wc1kuTYMQZqsMDwI9wabAocu_YJ94K8P3XtFT4G2g-Jo15zYmoJlUdNlcqe-Fr-AL-EY6yufVTO0f6SN7VmfpjlYvTJCug_GbiDroXD2KRFgjt234PAcVN-9ARbRMli4yeBWywu5b3ZuWVVKNTRbts-RP9WV1-mYtoPaZ4ZlL49CarqFuhYynon4fsjBMnUl__zBv4N2L6XdUhH07cMKubh4kOsZhOWGei0K9o8Qd5M4QVUlwHdrCnmeZm58hIZgA-mpHpAUeKsvNC_s49Y_7mS-KUgRUeboiRW_wm0Stx6Gp5E-41jZR1mn6cXTInDjmP8oveHiiXnWodzRFZqzttkXG2QG5UW4pk_vsA_wi2HPi1fy9rljWgOdMqPE52GklcVlKbvRgTqpWS4SNsVbYc-LV_L2uWNaA50yo8TnYaSVxWUpu9GBOqlZLhI2xVDjmP8oveHiiXnWodzRFZqzttkXG2QG5UW4pk_vsA_wi2HPi1fy9rljWgOdMqPE52GklcVlKbvRgTqpWS4SNsVbYc-LV_L2uWNaA50yo8TnYaSVxWUpu9GBOqlZLhI2xVthz4tX8va5Y1oDnTKjxOdhpJXFZSm70YE6qVkuEjbFXP73Wj-m8fxHPJGULVALyCK8JQp9u2V6M3Iz-5PlNWBM_vdaP6bx_Ec8kZQtUAvIIrwlCn27ZXozcjP7k-U1YEz-91o_pvH8RzyRlC1QC8givCUKfbtlejNyM_uT5TVgTP73Wj-m8fxHPJGULVALyCK8JQp9u2V6M3Iz-5PlNWBM_vdaP6bx_Ec8kZQtUAvIIrwlCn27ZXozcjP7k-U1YEA6q2zM2SYtR6mCe2G4pldpf6TouaqnY2P95IfZceg_hrE8izeVemVqlLEQJP5uriPAEAAAAAAAAAdG6O59Son_myMLHFid_Ec2njb38TzHoadUrFqCdn9VUGphOL4NB3l1d7fMUgqvEXLnm1SAUupApKwRgzGBes5d6FXOTEpz3JK2hNn0aNkEkwsgvvdlC8CCJ8bqirC0t2V3OGbYO4MSRaEATyOatb6NylWP3cthM8q2Dy12P1JwpbDfLJMW3yjN3Mnl1BcOTn_7T-Y8AvH96gTf7up3_Po9IhPlXDiP_BMXvBhImpORQjss_14-7uZEEIqqlzeyhjGVdHpRlupA4nFH7b5VAzfb0w7MN24zyauAtDI73gHTjIrA0a0b0IdTGCK7Z9qdOBRk1F4Y7M7PZYbACgZWbDCqyXKKCIFG01o9NCz1SG-yxsru_n23eEr9N3Bw6azb7mSJUJ--PfMW_02EzjrK4rilMvg__83cED6LVVMLvtuN4CAgAAAAAAAACtAY_vFwpJANmTYbls_jiR7M8QPMyxALPMdM-tPBuFEKnTgdilUbMW5qqOENkxxCoiKunKX2xd9Ze6Zdr2BlZNARMAAAAAAAAAQHlhbWRhbi5ic2t5LnNvY2lhbAAAYWKBpGFhhwUGBwgJAARhYgphY4UAAQIDBGFkBQ"
+  },
+  "holder": "ppid:ugXQB6a2imUVdhxd0O7gMj8uWVzMI7BYiIF9xBHBUPFOvGWU9lk-InRLMfZWyqZ7r",
+  "verifiableCredential": {
+    "type": "VerifiableCredential",
+    "proof": {
+      "type": "DataIntegrityProof",
+      "created": "2024-04-18T19:54:58.543Z",
+      "cryptosuite": "bbs-termwise-bound-signature-2023",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:example:issuer0#bls12_381-g2-pub001"
+    },
+    "credentialSubject": {
+      "type": "Person",
+      "schema:birthDate": {
+        "id": "_:b2"
+      }
+    },
+    "expirationDate": "2026-01-01T00:00:00Z",
+    "issuanceDate": "2023-01-01T00:00:00Z",
+    "issuer": "did:example:issuer0"
+  },
+  "predicate": {
+    "type": "Predicate",
+    "circuit": "circ:lessThanPrvPub",
+    "private": [
+      {
+        "type": "PrivateVariable",
+        "val": "_:b2",
+        "var": "lesser"
+      }
+    ],
+    "public": [
+      {
+        "type": "PublicVariable",
+        "val": {
+          "type": "xsd:dateTime",
+          "@value": "2003-04-18T23:59:59Z"
+        },
+        "var": "greater"
+      }
+    ]
+  }
+}
