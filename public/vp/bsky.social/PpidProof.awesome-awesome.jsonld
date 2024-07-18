@@ -1,0 +1,18 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://www.w3.org/ns/data-integrity/v1",
+    "https://zkp-ld.org/context.jsonld"
+  ],
+  "type": "VerifiablePresentation",
+  "proof": {
+    "type": "DataIntegrityProof",
+    "created": "2024-07-18T09:29:44.028Z",
+    "challenge": "@awesome-awesome.bsky.social",
+    "cryptosuite": "bbs-termwise-proof-2023",
+    "domain": "bsky.social",
+    "proofPurpose": "authentication",
+    "proofValue": "uomFhWIgBAAAAAAAAAAOk8x1q8wEHhiCJzq-ZlBvHOyhgEfYsbEBe3dLvqEf2NI4URJSp8id0nDt8hnsiJcMBAAAAAAAAACVszflcKKY2HBEA0-NPPd7YeHiEa4Esf2NLJK86erw3ARwAAAAAAAAAQGF3ZXNvbWUtYXdlc29tZS5ic2t5LnNvY2lhbAAAYWKA"
+  },
+  "holder": "ppid:ugXQB6a2imUVdhxd0O7gMj8uWVzMI7BYiIF9xBHBUPFOvGWU9lk-InRLMfZWyqZ7r"
+}
